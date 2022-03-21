@@ -20,7 +20,29 @@ void main() {
   
   firstAndListList([1, 2, 3, 4, 5, 6, 7]); //Make a new list of only the first and last elements of the given list
   
+  largest(1, 5, 3, 4) //Largest of the given number
+  
+  largestInList([1, 2, 6, 3, 5]); //Largest in a List
+  
 }
+
+Largest in a List -->
+```
+largestInList(List numbers) {
+  numbers.sort();
+  print(numbers.last);
+}
+```
+
+Largest in given -->
+```
+largest(int a, int b, int c) {
+  var max;
+  a > b ? max = a : max = b;
+  c > max ? max = c : max = max;
+  print(max);
+}
+```
 
 First and Last elements of a List in a New List -->
 ```
