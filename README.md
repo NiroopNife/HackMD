@@ -16,7 +16,21 @@ void main() {
   
   evenList([1, 4, 9, 16, 25, 36, 49, 64, 81, 100]); //Create a new list conisiting of only even numbers
   
+  primeNumber(23)
+  
 }
+
+Prime Number -->
+```
+primeNumber(int number) {
+  List<int> a = [
+    for (var i = 1; i <= number; i++)
+    if (number % i == 0) i
+ ];
+  a.length == 2 ? print("The chosen number is a prime")
+      : print("The chosen number is not a prime");
+}
+```
 
 Even List -->
 ```
