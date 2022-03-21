@@ -26,13 +26,18 @@ void main() {
   
   reverseSentence("Hi my name is Nife"); //Reversing the sentence
   
+  uniqueList([1, 2, 3, 4, 2, 4, 5, 6, 3]); //Remove the duplicates from list
+  
 }
+
+Unique List -->
+```
+uniqueList(List someList) => someList.toSet().toList());
+```
 
 Reverse sentence -->
 ```
-reverseSentence(String sentence) {
-  print(sentence.split(" ").reversed.toList().join(" "));
-}
+reverseSentence(String sentence) => sentence.split(" ").reversed.toList().join(" "));
 ```
 
 Largest in a List -->
