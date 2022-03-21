@@ -24,7 +24,16 @@ void main() {
   
   largestInList([1, 2, 6, 3, 5]); //Largest in a List
   
+  reverseSentence("Hi my name is Nife"); //Reversing the sentence
+  
 }
+
+Reverse sentence -->
+```
+reverseSentence(String sentence) {
+  print(sentence.split(" ").reversed.toList().join(" "));
+}
+```
 
 Largest in a List -->
 ```
