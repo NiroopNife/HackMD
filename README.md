@@ -16,9 +16,19 @@ void main() {
   
   evenList([1, 4, 9, 16, 25, 36, 49, 64, 81, 100]); //Create a new list conisiting of only even numbers
   
-  primeNumber(23)
+  primeNumber(23);
+  
+  firstAndListList([1, 2, 3, 4, 5, 6, 7]); //Make a new list of only the first and last elements of the given list
   
 }
+
+First and Last elements of a List in a New List -->
+```
+firstAndLastList(List someList) {
+  List anotherList = [someList.first, someList.last];
+  print("Another List $anotherList");
+}
+```
 
 Prime Number -->
 ```
